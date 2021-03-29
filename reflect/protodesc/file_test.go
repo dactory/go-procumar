@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/dactory/go-procumar/encoding/prototext"
+	"github.com/dactory/go-procumar/internal/flags"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/reflect/protoregistry"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/dactory/go-procumar/types/descriptorpb"
 )
 
 func mustParseFile(s string) *descriptorpb.FileDescriptorProto {

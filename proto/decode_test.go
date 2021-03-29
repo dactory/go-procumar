@@ -10,14 +10,14 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/dactory/go-procumar/encoding/prototext"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/testing/protopack"
 
-	"google.golang.org/protobuf/internal/errors"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	"github.com/dactory/go-procumar/internal/errors"
+	testpb "github.com/dactory/go-procumar/internal/testprotos/test"
+	test3pb "github.com/dactory/go-procumar/internal/testprotos/test3"
 )
 
 func TestDecode(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"sort"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/order"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/dactory/go-procumar/encoding/protowire"
+	"github.com/dactory/go-procumar/internal/encoding/messageset"
+	"github.com/dactory/go-procumar/internal/order"
+	pref "github.com/dactory/go-procumar/reflect/protoreflect"
+	piface "github.com/dactory/go-procumar/runtime/protoiface"
 )
 
 // coderMessageInfo contains per-message information used by the fast-path functions.

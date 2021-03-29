@@ -7,15 +7,15 @@ package anypb_test
 import (
 	"testing"
 
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/testing/protocmp"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/testing/protocmp"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	apb "google.golang.org/protobuf/types/known/anypb"
-	epb "google.golang.org/protobuf/types/known/emptypb"
-	wpb "google.golang.org/protobuf/types/known/wrapperspb"
+	testpb "github.com/dactory/go-procumar/internal/testprotos/test"
+	apb "github.com/dactory/go-procumar/types/known/anypb"
+	epb "github.com/dactory/go-procumar/types/known/emptypb"
+	wpb "github.com/dactory/go-procumar/types/known/wrapperspb"
 )
 
 func mustMarshal(m proto.Message) []byte {

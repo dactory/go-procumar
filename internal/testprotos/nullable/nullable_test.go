@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/runtime/protoimpl"
 )
 
 func Test(t *testing.T) {

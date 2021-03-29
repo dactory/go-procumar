@@ -50,9 +50,9 @@
 package pluginpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/dactory/go-procumar/reflect/protoreflect"
+	protoimpl "github.com/dactory/go-procumar/runtime/protoimpl"
+	descriptorpb "github.com/dactory/go-procumar/types/descriptorpb"
 	reflect "reflect"
 	sync "sync"
 )

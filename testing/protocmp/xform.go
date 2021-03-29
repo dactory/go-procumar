@@ -16,14 +16,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/msgfmt"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	"github.com/dactory/go-procumar/encoding/protowire"
+	"github.com/dactory/go-procumar/internal/genid"
+	"github.com/dactory/go-procumar/internal/msgfmt"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/reflect/protoregistry"
+	"github.com/dactory/go-procumar/runtime/protoiface"
+	"github.com/dactory/go-procumar/runtime/protoimpl"
 )
 
 var (

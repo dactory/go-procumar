@@ -16,15 +16,15 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/internal/encoding/tag"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/version"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
+	"github.com/dactory/go-procumar/compiler/protogen"
+	"github.com/dactory/go-procumar/internal/encoding/tag"
+	"github.com/dactory/go-procumar/internal/genid"
+	"github.com/dactory/go-procumar/internal/version"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/runtime/protoimpl"
 
-	"google.golang.org/protobuf/types/descriptorpb"
-	"google.golang.org/protobuf/types/pluginpb"
+	"github.com/dactory/go-procumar/types/descriptorpb"
+	"github.com/dactory/go-procumar/types/pluginpb"
 )
 
 // SupportedFeatures reports the set of supported protobuf language features.
@@ -51,12 +51,12 @@ const (
 // patched to support unique build environments that impose restrictions
 // on the dependencies of generated source code.
 var (
-	protoPackage         goImportPath = protogen.GoImportPath("google.golang.org/protobuf/proto")
-	protoifacePackage    goImportPath = protogen.GoImportPath("google.golang.org/protobuf/runtime/protoiface")
-	protoimplPackage     goImportPath = protogen.GoImportPath("google.golang.org/protobuf/runtime/protoimpl")
-	protojsonPackage     goImportPath = protogen.GoImportPath("google.golang.org/protobuf/encoding/protojson")
-	protoreflectPackage  goImportPath = protogen.GoImportPath("google.golang.org/protobuf/reflect/protoreflect")
-	protoregistryPackage goImportPath = protogen.GoImportPath("google.golang.org/protobuf/reflect/protoregistry")
+	protoPackage         goImportPath = protogen.GoImportPath("github.com/dactory/go-procumar/proto")
+	protoifacePackage    goImportPath = protogen.GoImportPath("github.com/dactory/go-procumar/runtime/protoiface")
+	protoimplPackage     goImportPath = protogen.GoImportPath("github.com/dactory/go-procumar/runtime/protoimpl")
+	protojsonPackage     goImportPath = protogen.GoImportPath("github.com/dactory/go-procumar/encoding/protojson")
+	protoreflectPackage  goImportPath = protogen.GoImportPath("github.com/dactory/go-procumar/reflect/protoreflect")
+	protoregistryPackage goImportPath = protogen.GoImportPath("github.com/dactory/go-procumar/reflect/protoregistry")
 )
 
 type goImportPath interface {

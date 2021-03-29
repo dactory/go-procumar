@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/encoding/text"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/internal/set"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/proto"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/dactory/go-procumar/internal/encoding/messageset"
+	"github.com/dactory/go-procumar/internal/encoding/text"
+	"github.com/dactory/go-procumar/internal/errors"
+	"github.com/dactory/go-procumar/internal/flags"
+	"github.com/dactory/go-procumar/internal/genid"
+	"github.com/dactory/go-procumar/internal/pragma"
+	"github.com/dactory/go-procumar/internal/set"
+	"github.com/dactory/go-procumar/internal/strs"
+	"github.com/dactory/go-procumar/proto"
+	pref "github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/reflect/protoregistry"
 )
 
 // Unmarshal reads the given []byte into the given proto.Message.

@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	preg "google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/dactory/go-procumar/encoding/prototext"
+	"github.com/dactory/go-procumar/proto"
+	preg "github.com/dactory/go-procumar/reflect/protoregistry"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	pb2 "github.com/dactory/go-procumar/internal/testprotos/textpb2"
+	"github.com/dactory/go-procumar/types/known/anypb"
+	"github.com/dactory/go-procumar/types/known/durationpb"
+	"github.com/dactory/go-procumar/types/known/emptypb"
+	"github.com/dactory/go-procumar/types/known/structpb"
+	"github.com/dactory/go-procumar/types/known/timestamppb"
+	"github.com/dactory/go-procumar/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

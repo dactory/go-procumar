@@ -7,7 +7,7 @@ package jsonfuzz
 import (
 	"testing"
 
-	"google.golang.org/protobuf/internal/fuzztest"
+	"github.com/dactory/go-procumar/internal/fuzztest"
 )
 
 func Test(t *testing.T) {

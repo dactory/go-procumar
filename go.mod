@@ -1,4 +1,4 @@
-module google.golang.org/protobuf
+module github.com/dactory/go-procumar
 
 go 1.9
 

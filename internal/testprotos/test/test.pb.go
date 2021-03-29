@@ -8,10 +8,10 @@
 package test
 
 import (
-	proto "google.golang.org/protobuf/proto"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoiface "google.golang.org/protobuf/runtime/protoiface"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	proto "github.com/dactory/go-procumar/proto"
+	protoreflect "github.com/dactory/go-procumar/reflect/protoreflect"
+	protoiface "github.com/dactory/go-procumar/runtime/protoiface"
+	protoimpl "github.com/dactory/go-procumar/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

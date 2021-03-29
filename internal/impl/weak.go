@@ -7,8 +7,8 @@ package impl
 import (
 	"fmt"
 
-	pref "google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	pref "github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/reflect/protoregistry"
 )
 
 // weakFields adds methods to the exported WeakFields type for internal use.

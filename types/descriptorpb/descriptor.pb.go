@@ -42,9 +42,9 @@
 package descriptorpb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoiface "google.golang.org/protobuf/runtime/protoiface"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protoreflect "github.com/dactory/go-procumar/reflect/protoreflect"
+	protoiface "github.com/dactory/go-procumar/runtime/protoiface"
+	protoimpl "github.com/dactory/go-procumar/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 )

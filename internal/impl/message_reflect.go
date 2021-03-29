@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/pragma"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/dactory/go-procumar/internal/detrand"
+	"github.com/dactory/go-procumar/internal/pragma"
+	pref "github.com/dactory/go-procumar/reflect/protoreflect"
 )
 
 type reflectMessageInfo struct {

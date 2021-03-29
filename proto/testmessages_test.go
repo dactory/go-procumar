@@ -5,18 +5,18 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/protobuild"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/dactory/go-procumar/encoding/protowire"
+	"github.com/dactory/go-procumar/internal/impl"
+	"github.com/dactory/go-procumar/internal/protobuild"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/reflect/protoreflect"
+	"github.com/dactory/go-procumar/reflect/protoregistry"
+	"github.com/dactory/go-procumar/testing/protopack"
 
-	legacypb "google.golang.org/protobuf/internal/testprotos/legacy"
-	requiredpb "google.golang.org/protobuf/internal/testprotos/required"
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	legacypb "github.com/dactory/go-procumar/internal/testprotos/legacy"
+	requiredpb "github.com/dactory/go-procumar/internal/testprotos/required"
+	testpb "github.com/dactory/go-procumar/internal/testprotos/test"
+	test3pb "github.com/dactory/go-procumar/internal/testprotos/test3"
 )
 
 type testProto struct {

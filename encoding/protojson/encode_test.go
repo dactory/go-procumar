@@ -11,22 +11,22 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	preg "google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/dactory/go-procumar/encoding/protojson"
+	"github.com/dactory/go-procumar/internal/detrand"
+	"github.com/dactory/go-procumar/internal/flags"
+	"github.com/dactory/go-procumar/proto"
+	preg "github.com/dactory/go-procumar/reflect/protoregistry"
+	"github.com/dactory/go-procumar/testing/protopack"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	pb3 "google.golang.org/protobuf/internal/testprotos/textpb3"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/fieldmaskpb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	pb2 "github.com/dactory/go-procumar/internal/testprotos/textpb2"
+	pb3 "github.com/dactory/go-procumar/internal/testprotos/textpb3"
+	"github.com/dactory/go-procumar/types/known/anypb"
+	"github.com/dactory/go-procumar/types/known/durationpb"
+	"github.com/dactory/go-procumar/types/known/emptypb"
+	"github.com/dactory/go-procumar/types/known/fieldmaskpb"
+	"github.com/dactory/go-procumar/types/known/structpb"
+	"github.com/dactory/go-procumar/types/known/timestamppb"
+	"github.com/dactory/go-procumar/types/known/wrapperspb"
 )
 
 // Disable detrand to enable direct comparisons on outputs.

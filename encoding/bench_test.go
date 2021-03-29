@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/protojson"
-	"google.golang.org/protobuf/encoding/prototext"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/dactory/go-procumar/encoding/protojson"
+	"github.com/dactory/go-procumar/encoding/prototext"
+	pref "github.com/dactory/go-procumar/reflect/protoreflect"
 
-	tpb "google.golang.org/protobuf/internal/testprotos/test"
+	tpb "github.com/dactory/go-procumar/internal/testprotos/test"
 )
 
 // The results of these microbenchmarks are unlikely to correspond well

@@ -5,13 +5,13 @@
 package proto_test
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/dactory/go-procumar/encoding/protowire"
+	"github.com/dactory/go-procumar/internal/flags"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/testing/protopack"
 
-	messagesetpb "google.golang.org/protobuf/internal/testprotos/messageset/messagesetpb"
-	msetextpb "google.golang.org/protobuf/internal/testprotos/messageset/msetextpb"
+	messagesetpb "github.com/dactory/go-procumar/internal/testprotos/messageset/messagesetpb"
+	msetextpb "github.com/dactory/go-procumar/internal/testprotos/messageset/msetextpb"
 )
 
 func init() {

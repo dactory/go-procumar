@@ -11,19 +11,19 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"google.golang.org/protobuf/internal/detrand"
-	"google.golang.org/protobuf/internal/msgfmt"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protocmp"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/dactory/go-procumar/internal/detrand"
+	"github.com/dactory/go-procumar/internal/msgfmt"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/testing/protocmp"
+	"github.com/dactory/go-procumar/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	textpb "google.golang.org/protobuf/internal/testprotos/textpb2"
-	dynpb "google.golang.org/protobuf/types/dynamicpb"
-	anypb "google.golang.org/protobuf/types/known/anypb"
-	durpb "google.golang.org/protobuf/types/known/durationpb"
-	tspb "google.golang.org/protobuf/types/known/timestamppb"
-	wpb "google.golang.org/protobuf/types/known/wrapperspb"
+	testpb "github.com/dactory/go-procumar/internal/testprotos/test"
+	textpb "github.com/dactory/go-procumar/internal/testprotos/textpb2"
+	dynpb "github.com/dactory/go-procumar/types/dynamicpb"
+	anypb "github.com/dactory/go-procumar/types/known/anypb"
+	durpb "github.com/dactory/go-procumar/types/known/durationpb"
+	tspb "github.com/dactory/go-procumar/types/known/timestamppb"
+	wpb "github.com/dactory/go-procumar/types/known/wrapperspb"
 )
 
 func init() {

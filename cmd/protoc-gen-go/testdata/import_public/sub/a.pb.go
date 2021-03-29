@@ -8,10 +8,10 @@
 package sub
 
 import (
-	sub2 "google.golang.org/protobuf/cmd/protoc-gen-go/testdata/import_public/sub2"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoiface "google.golang.org/protobuf/runtime/protoiface"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	sub2 "github.com/dactory/go-procumar/cmd/protoc-gen-go/testdata/import_public/sub2"
+	protoreflect "github.com/dactory/go-procumar/reflect/protoreflect"
+	protoiface "github.com/dactory/go-procumar/runtime/protoiface"
+	protoimpl "github.com/dactory/go-procumar/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"

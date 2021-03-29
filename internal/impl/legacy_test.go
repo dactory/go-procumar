@@ -13,17 +13,17 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	pimpl "google.golang.org/protobuf/internal/impl"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/proto"
-	pdesc "google.golang.org/protobuf/reflect/protodesc"
-	pref "google.golang.org/protobuf/reflect/protoreflect"
-	preg "google.golang.org/protobuf/reflect/protoregistry"
-	piface "google.golang.org/protobuf/runtime/protoiface"
+	"github.com/dactory/go-procumar/encoding/prototext"
+	pimpl "github.com/dactory/go-procumar/internal/impl"
+	"github.com/dactory/go-procumar/internal/pragma"
+	"github.com/dactory/go-procumar/proto"
+	pdesc "github.com/dactory/go-procumar/reflect/protodesc"
+	pref "github.com/dactory/go-procumar/reflect/protoreflect"
+	preg "github.com/dactory/go-procumar/reflect/protoregistry"
+	piface "github.com/dactory/go-procumar/runtime/protoiface"
 
-	proto2_20180125 "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20180125_92554152"
-	"google.golang.org/protobuf/types/descriptorpb"
+	proto2_20180125 "github.com/dactory/go-procumar/internal/testprotos/legacy/proto2_20180125_92554152"
+	"github.com/dactory/go-procumar/types/descriptorpb"
 )
 
 type LegacyTestMessage struct {

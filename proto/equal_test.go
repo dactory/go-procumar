@@ -8,12 +8,12 @@ import (
 	"math"
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/testing/protopack"
+	"github.com/dactory/go-procumar/encoding/prototext"
+	"github.com/dactory/go-procumar/proto"
+	"github.com/dactory/go-procumar/testing/protopack"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	test3pb "google.golang.org/protobuf/internal/testprotos/test3"
+	testpb "github.com/dactory/go-procumar/internal/testprotos/test"
+	test3pb "github.com/dactory/go-procumar/internal/testprotos/test3"
 )
 
 func TestEqual(t *testing.T) {
