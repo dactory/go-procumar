@@ -52,6 +52,19 @@ func NewEncoder(indent string) (*Encoder, error) {
 	return e, nil
 }
 
+func (e *Encoder) AppendDtype(messageName string) error {
+	// e.prepareNext(name)
+	var err error
+	// // Append to output regardless of error.
+	// e.out, err = appendString(e.out, messageName)
+	// e.out = append(e.out, ':')
+	// e.out, err = appendString(e.out, messageName)
+
+	e.out, err = appendString(e.out, "\"dgraph.type\":[\""+messageName+"\"]")
+
+	return err
+}
+
 // Bytes returns the content of the written bytes.
 func (e *Encoder) Bytes() []byte {
 	return e.out

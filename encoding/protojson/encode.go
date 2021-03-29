@@ -234,6 +234,9 @@ func (e encoder) marshalMessage(m pref.Message, typeURL string) error {
 		}
 		return true
 	})
+
+	e.AppendDtype(string(m.Descriptor().Name()))
+
 	return err
 }
 
